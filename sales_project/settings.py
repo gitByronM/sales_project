@@ -86,10 +86,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mg_group_test',
-        'USER': 'postgres',  # Cambia esto a tu usuario de PostgreSQL
-        'PASSWORD': '123456',  # Cambia esto a tu contraseña de PostgreSQL
-        'HOST': 'localhost',  # Cambia esto si tu base de datos no está en el host local
-        'PORT': '5433',  # Cambia esto si tu base de datos PostgreSQL utiliza un puerto diferente
+        'USER': 'postgres',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
+        'PORT': '5433',
     }
 }
 
